@@ -1,0 +1,139 @@
+body {
+   background:skyblue;
+// margin-top:100px;
+}
+    @font-face {
+  font-family: ketan;
+  src: url('sail.otf');
+
+  }
+  #footer1{
+            text-align: center;
+            font-family: ketan;
+            color:white;
+            letter-spacing: 1px;
+            background-image: linear-gradient(to left ,red,blue);
+            border-radius: 15px;
+        }
+#one{
+    
+    width:30px;
+    height:20px;
+    background:red;
+    position:absolute ;
+    top:70%;
+    left:40%;
+    border-radius:16px 16px 2px 2px;
+}
+#cen{
+    position:absolute ;
+    top:70%;
+    left:28%;
+}
+#st1,#st2,#st3,#st4,#st5{
+   // display:inline-block ;
+    width:60px;
+    height:20px;
+    background:brown;
+  // position:relative ;
+   
+ transform-origin:center ;
+    //left:0%;
+   // animation:anim 2s alternate infinite ;
+    
+}
+#sgt2{
+    height:15px;
+}
+@keyframes anim{
+    to{
+        transform:translatex(85vw);
+        background:navy;
+        border-radius:10px;
+    }
+}
+
+
+#st1{
+    
+    animation:anim .9s alternate infinite linear;
+}
+#st2{
+    animation:anim 1.43s alternate infinite linear;
+}
+#st3{
+    animation:anim .99s alternate infinite linear;
+}
+#st4{
+    animation:anim 1.8s alternate infinite linear;
+}
+
+#st5{
+    animation:anim 1.41s alternate infinite linear;
+}
+
+
+
+#fin{
+    animation:anima 6s alternate infinite ;
+    width:60px;
+    height:30px;
+    background:red;
+    color:white;
+    font-size:10px;
+    border-radius:19px 19px 2px 5px;
+    text-align:center;
+}
+@keyframes anima{
+    to{
+        transform:translatex(70vw);
+       
+    }
+}
+
+#over{
+    height:150vw;
+   // background:red;
+    width:104vw;
+    position:absolute ;
+    top:0;
+    left:0;
+    text-align:center;
+    z-index:-1;
+    font-size:40px;
+    transition-duration:2s;
+    color:blue;
+    font-weight:bold;
+    
+}
+svg{
+    position:absolute ;
+    top:0;
+    left:0;
+    height:200px;
+    width:100px;
+    opacity:.13;
+    z-index:-5;
+}
+#f,#m{
+    background:yellow;
+    width:150px;
+    display:inline ;
+    border:1px solid black;
+}
+
+
+#btn1,#btn2,#btn3,#btn4{
+    width:100px;
+    height:35px;
+    background:lightgreen;
+}
+
+#add{position:absolute ;
+   top:20%;
+    float:right;
+    transform:rotate(90deg);
+    z-index:-4;
+}
+
+
